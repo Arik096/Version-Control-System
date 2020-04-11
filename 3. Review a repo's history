@@ -1,4 +1,5 @@
 git log
+-> reviewing existing commit
 
 git log --oneline
 
