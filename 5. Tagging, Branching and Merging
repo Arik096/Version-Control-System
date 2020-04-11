@@ -23,3 +23,14 @@ $ git checkout master
 
 $ git branch alt-sidebar-loc 42a69f
 -> creates a new branch called alt-sidebar-loc and has it pointing at the commit with the SHA 42a69f
+
+$ git branch -d sidebar
+-> delete branch sidebar
+
+
+$ git log --oneline --decorate --graph --all
+-> show all branch in the repo
+
+
+$ git merge sidebar
+-> merge sidebar with master
