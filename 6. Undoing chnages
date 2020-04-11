@@ -1,0 +1,17 @@
+$ git commit --amend
+-> alter the most recent commit
+
+$ git revert e00fec0
+-> revert the commit e00fec0
+
+$ git reset SHA
+-> moved to PWD
+
+$ git --mixed reset SHA
+-> moved to PWD
+
+$ git --soft reset SHA
+-> moved to staging index
+
+$ git --hard reset SHA
+-> moved to trash
