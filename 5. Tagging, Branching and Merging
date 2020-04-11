@@ -1,0 +1,25 @@
+$ git tag -a v1.0
+-> add tag v1.0
+
+$ git log --decorate
+-> show tag details
+
+$ git tag -d v1.0
+$ git tag --delete v1.0
+-> delete tag v1.0
+
+$ git tag -a v1.0 a87984
+-> tag a previous commit
+
+$ git branch
+-> show current branh
+
+$ git branch sidebar
+-> create branch sidebar
+
+$ git checkout sidebar
+$ git checkout master
+-> switch between branches 
+
+$ git branch alt-sidebar-loc 42a69f
+-> creates a new branch called alt-sidebar-loc and has it pointing at the commit with the SHA 42a69f
