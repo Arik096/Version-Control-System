@@ -1,16 +1,16 @@
-git log
+$ git log
 -> reviewing existing commit
 
-git log --oneline
+$ git log --oneline
 
-git log --stat
+$ git log --stat
 
-git log --patch
-git log -p
+$ git log --patch
+$ git log -p
 
-git log -p --stat
+$ git log -p --stat
 
-git log -p fdf5493
+$ git log -p fdf5493
 
-git show
-git show fdf5493
+$ git show
+$ git show fdf5493
