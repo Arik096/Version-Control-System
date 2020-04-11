@@ -1,9 +1,10 @@
 git add filename
 git add .
-
+-> add working directory to staging index
 
 git commit
 git commit -m "message"
-
+-> add staging index to repo
 
 git diff
+-> displays the different between the two version of a file
