@@ -1,6 +1,8 @@
-git init 
+$ git init 
 -> create our own repository 
-git clone 
+
+$ git clone 
 -> copy an existing repository 
-git status
+
+$ git status
 -> determine status of a repository
